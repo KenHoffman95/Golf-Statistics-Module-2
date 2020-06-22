@@ -17,6 +17,6 @@ Using the data that I collected, I wanted to answer the following questions:
 
 ## Presentation
 
-https://docs.google.com/presentation/d/1sqSAk0G6kh9t0Rz0cYvwV1hqxA3zGEdJ7IKTSmBsY1Y/edit?usp=sharing
+https://docs.google.com/presentation/d/1sqSAk0G6kh9t0Rz0cYvwV1hqxA3zGEdJ7IKTSmBsY1Y/edit?usp=sharing 
 
 
