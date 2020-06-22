@@ -2,7 +2,7 @@
 
 ## Introduction
 
-For this project, I analyzed data and metrics regarding PGA golfers. I reviewed data for 1678 golfers (over 9 seasons) in order to determine which stats and metrics play the biggest role in determining a PGA golfers' earnings per Tournament. In order to get the data collection of PGA golfers to review, I downloaded a dataset from Kaggle that was webscraped from PGA.com and uploaded by Brad Klassen. I created data visualizations through MatPlotLib, Seaborn and Pandas in order to analyze the data. For further analysis, I used Statsmodels to create multiple linear regression models. 
+For this project, I analyzed data and metrics regarding PGA golfers. I reviewed data for 1678 golfers (over 9 seasons from 2010-2018) in order to determine which stats and metrics play the biggest role in determining a PGA golfers' earnings per Tournament. In order to get the data collection of PGA golfers to review, I downloaded a dataset from Kaggle that was webscraped from PGA.com and uploaded by Brad Klassen. I created data visualizations through MatPlotLib, Seaborn and Pandas in order to analyze the data. For further analysis, I used Statsmodels to create multiple linear regression models. 
 
 ## Objectives
 
@@ -18,5 +18,17 @@ Using the data that I collected, I wanted to answer the following questions:
 ## Presentation
 
 https://docs.google.com/presentation/d/1sqSAk0G6kh9t0Rz0cYvwV1hqxA3zGEdJ7IKTSmBsY1Y/edit?usp=sharing 
+
+## Conclusions
+
+Using the data that I collected, I was able to draw the following conclusions:
+* The mean earnings per tournament for PGA golfers is $60,940.95 with a 95% confidence interval of $57,982.81 to $63,899.09
+* From performing two-sample t tests I was able to determine:
+  * Longer drivers make more money per tournament than shorter drivers
+  * Accurate drivers do not make more money per tournament than inaccurate drivers
+  * "Good" putters, that average less than 29.14 putts per round, make more money per tournament than "bad" putters
+  * Golfers with a high GIR% make more money per tournament than golfers with a lower GIR%
+* Since there is a lot of variability in the purse and payout breakdown per PGA Tournament, it is a lot easier to predict a PGA golfers’ scoring average based on metrics than it is to predict their average earnings per tournament
+
 
 
